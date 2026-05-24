@@ -1,0 +1,5 @@
+Hypothesis Target,KPI,Test Model,p-value,Status
+H0 1: Provincial Risk Profiles,Claim Frequency,Chi-Squared,0.0120,Reject H0
+H0 2: Zip Code Risk Profiles,Claim Severity,Welch T-Test,0.4683,Fail to Reject
+H0 3: Zip Code Profit Margin,Net Margin,Welch T-Test,0.5398,Fail to Reject
+H0 4: Gender Risk Metrics,Claim Severity,Welch T-Test,0.0000,Reject H0
