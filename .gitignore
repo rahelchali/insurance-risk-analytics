@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/raw/*
-data/processed/*
 notebooks/.ipynb_checkpoints/
+
+# Target only the massive raw data files, leaving the lightweight metadata pointers unblocked
+data/raw/*.csv
+data/processed/*.csv
